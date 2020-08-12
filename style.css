@@ -1,8 +1,9 @@
-/* :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
-/* :: 2.0 Import All CSS */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
 @import url(fontawesome/css/all.css);
-@import url(bootstrap/css/bootstrap.min.css);
-@import url(jquery/jquery.min.js);
+@import url("https://code.jquery.com/jquery-3.5.1.slim.min.js");
+@import url("https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js");
+@import url("https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js");
+@import url("https://code.jquery.com/ui/1.12.1/jquery-ui.js");
 @import url(fontawesome/js/all.js);
-@import url(bootstrap/js/bootstrap.bundle.min.js);
