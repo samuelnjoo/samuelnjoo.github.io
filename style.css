@@ -165,7 +165,6 @@ img {
     transform: translate(-50%, -50%);
     z-index: 10; }
   #preloader .circle-preloader {
-    background-image: url(img/core-img.png);
     display: block;
     width: 60px;
     height: 60px;
