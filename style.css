@@ -6,12 +6,11 @@ body, html {
     margin: 0;
 }
 .profile-pic {
-    border:2px solid #ffffff;
+    border:5px solid #ffffff;
     border-radius: 100%;
     background: url(img/profile-pic.png);
-    background-position: center;
     background-repeat: no-repeat;
-    padding: 10px;
+    background-position: center bottom;
     width: 150px;
     height: 150px;
 }
