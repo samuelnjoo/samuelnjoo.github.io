@@ -245,7 +245,7 @@ $(document).ready(function(){
 
 $(document).ready(function() {
   $('<ul />').prependTo('#flkr');
-  $.getJSON('http://api.flickr.com/services/feeds/photos_public.gne?id=33672800@N00&lang=en-us&format=json&jsoncallback=?', function(data) {
+  $.getJSON('https://api.flickr.com/services/feeds/photos_public.gne?id=33672800@N00&lang=en-us&format=json&jsoncallback=?', function(data) {
     $.each(data.items, function(i,item) {
       var squares = (item.media.m).replace('_m.jpg', '_q.jpg');
       if(i <= 15){
